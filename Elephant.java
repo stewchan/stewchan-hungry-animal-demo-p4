@@ -5,10 +5,10 @@ public class Elephant extends Actor
     public void act()
     {
         if(Greenfoot.isKeyDown("d")){
-            move(1);
+            move(2);
         }
         if(Greenfoot.isKeyDown("a")){
-            move(-1);
+            move(-2);
         }
     }
 }
